@@ -1,10 +1,12 @@
 # comp3900_git_primer
 
+```
 repository/
 ├── app.py
 ├── templates/
 │   ├── index.html
 │   └── calculator.html
+```
 
 To run this application use `python3 main.py`. You will need to first install `Python` which can be done online at https://www.python.org/downloads/ and you will need to install any necessary dependencies such as Flask using `pip install Flask` on the commandline after installing Python.
 
