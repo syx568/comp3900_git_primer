@@ -14,6 +14,12 @@ To run this application use `python3 main.py`. You will need to first install `P
 
 There are some bugs in this code and features we need to add. To make sure you have correctly installed Flask and cloned this repo, when you run the application and open the link in your browser (http://127.0.0.1:5000/) you should see a welcome page that says "Welcome to COMP3900".
 
+Setting up the repo
+* You will be cloning my repo but working on your own. To do this, you must first setup your own personal Github account and create a **PRIVATE** repo called `comp3900_git_primer`.
+* Next, clone my repo from Github [https://github.com/Dhruv-A/comp3900_git_primer](here)
+* We are going to transfer this to your Github repo. To do this, use the command `git remote set-url origin http://github.com/GITHUB_USERNAME/REPO_NAME` replacing `GITHUB_USERNAME` and `REPO_NAME` with the ones for the repo you created.
+* Now run `git push -f` and you can get started with the exercise.
+
 1. We need to make a small modification as this page should include COMP9900 as well. Add COMP9900 to the greeting message in a new branch. To create a new branch and switch to it you can use `git checkout -b welcome_message_renaming`. Then make the necessary changes and add them using `git add <filename>` and commit them with a meaningful commit message using `git commit -m <write your commit message here>`.
 2. You will need to show your tutor you made this change so **DO NOT merge this branch into `main` or delete it.** However, you should push it to the remote branch using `git push`.
 3. We are going to create a new branch based off the one we are currently on to fix some other issues. Use `git checkout -b welcome_and_calculator_fix` to switch to a new branch where we will debug the calculator. If you try using the calculator right now, you will see that it does not add the numbers but instead multiplies them.
