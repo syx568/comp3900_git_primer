@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <form id="calcForm">
+        <input type="number" id="num1" name="num1" required>
+        <span> + </span>
+        <input type="number" id="num2" name="num2" required>
+        <button type="button" onclick="solve()">Solve</button>
+    </form>
+    <p id="result"></p>
+    <button onclick="window.location.href='/calculator'">Back to Home</button>
+
+    <script>
+        function solve() {
+            const num1 = parseFloat(document.getElementById('num1').value);
+            const num2 = parseFloat(document.getElementById('num2').value);
+            const result = num1 * num2;
+            document.getElementById('result').textContent = 'Result: ' + result;
+        }
+    </script>
+</body>
+</html>
