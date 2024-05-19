@@ -16,9 +16,9 @@ There are some bugs in this code and features we need to add. To make sure you h
 
 Setting up the repo
 * You will be cloning my repo but working on your own. To do this, you must first setup your own personal Github account and create a **PRIVATE** repo called `comp3900_git_primer`.
-* Next, clone my repo from Github [https://github.com/Dhruv-A/comp3900_git_primer](here)
-* We are going to transfer this to your Github repo. To do this, use the command `git remote set-url origin http://github.com/GITHUB_USERNAME/REPO_NAME` replacing `GITHUB_USERNAME` and `REPO_NAME` with the ones for the repo you created.
-* Now run `git push -f` and you can get started with the exercise.
+* Next, clone my repo from Github (https://github.com/Dhruv-A/comp3900_git_primer)[here] and then `cd comp3900_git_primer` to go into the repo.
+* We are going to transfer this to your Github repo. To do this, use the command `git remote set-url origin git@github.com:GITHUB_USERNAME/REPO_NAME.git` replacing `GITHUB_USERNAME` and `REPO_NAME` with the ones for the repo you created.
+* Now run `git push` and you can get started with the exercise.
 
 1. We need to make a small modification as this page should include COMP9900 as well. Add COMP9900 to the greeting message in a new branch. To create a new branch and switch to it you can use `git checkout -b welcome_message_renaming`. Then make the necessary changes and add them using `git add <filename>` and commit them with a meaningful commit message using `git commit -m <write your commit message here>`.
 2. You will need to show your tutor you made this change so **DO NOT merge this branch into `main` or delete it.** However, you should push it to the remote branch using `git push`.
